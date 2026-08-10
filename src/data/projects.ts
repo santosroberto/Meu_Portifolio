@@ -151,8 +151,8 @@ export const projects: Project[] = [
         alt: "Sessão de estudo com Pomodoro no Estuda+",
       },
     ],
-    demoUrl: null,
-    githubUrl: null,
+    demoUrl: "https://estuda-theta.vercel.app/",
+    githubUrl: "https://github.com/santosroberto/ESTUDA-",
     learnings: [
       "Manipulação de DOM",
       "Arquitetura JavaScript modular",
@@ -332,8 +332,8 @@ export const projects: Project[] = [
         alt: "Eventos e comunicação no Ministério+",
       },
     ],
-    demoUrl: null,
-    githubUrl: null,
+    demoUrl: "https://ministerio-psi.vercel.app/login",
+    githubUrl: "https://github.com/santosroberto/MINISTERIO-",
     learnings: [
       "Arquitetura de sistemas",
       "Modelagem de banco de dados",
@@ -517,8 +517,8 @@ export const projects: Project[] = [
         alt: "Histórico de manutenções no FuelTrack",
       },
     ],
-    demoUrl: null,
-    githubUrl: null,
+    demoUrl: "https://fueltrack-eight.vercel.app/login",
+    githubUrl: "https://github.com/santosroberto/FUELTRACK",
     learnings: [
       "React",
       "TypeScript",
