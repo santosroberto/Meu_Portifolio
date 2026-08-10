@@ -212,7 +212,7 @@ export function CaseSections({ project }: { project: Project }) {
               {project.screenshots.slice(1).map((screenshot) => (
                 <div
                   key={screenshot.src}
-                  className="relative aspect-[16/10] overflow-hidden rounded-xl border border-border"
+                  className="relative aspect-[2/1] overflow-hidden rounded-xl border border-border"
                 >
                   <Image
                     src={screenshot.src}

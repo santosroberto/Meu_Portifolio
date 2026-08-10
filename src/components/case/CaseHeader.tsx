@@ -48,7 +48,7 @@ export function CaseHeader({ project }: { project: Project }) {
         ) : null}
 
         {project.screenshots.length > 0 ? (
-          <div className="relative mt-10 aspect-[16/10] overflow-hidden rounded-xl border border-border">
+          <div className="relative mx-auto mt-10 max-w-[768px] aspect-[2/1] overflow-hidden rounded-xl border border-border">
             <Image
               src={project.screenshots[0].src}
               alt={project.screenshots[0].alt}

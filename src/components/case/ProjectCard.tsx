@@ -11,7 +11,7 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <Reveal>
       <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-foreground/5">
-        <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-foreground/5">
+        <div className="relative aspect-[2/1] overflow-hidden border-b border-border bg-foreground/5">
           {project.screenshots.length > 0 ? (
             <Image
               src={project.screenshots[0].src}
